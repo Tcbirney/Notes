@@ -85,13 +85,12 @@ vector<int> mergeSort(vector<int> nums){
 
 int main(){
 
-    vector<int> unsorted{3, 1, 5, 2, 6, 4, 8, 10, 9, 7};
+    vector<int> unsorted{3, 1, 5, 2, 6, 4, 8, 9, 7};
     vector<int> sorted = mergeSort(unsorted);
 
     for(int i: sorted){
         cout << i << " ";
     }
-
 
     return 0;
 }
